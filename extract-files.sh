@@ -14,7 +14,7 @@ fi
 set -e
 
 # Required!
-export DEVICE=miatoll
+export DEVICE=gram
 export DEVICE_COMMON=sm6250-common
 export VENDOR=xiaomi
 

@@ -8,8 +8,8 @@
     "target_path": "device/xiaomi/sm6250-common"
   },
   {
-    "repository": "android_vendor_xiaomi_miatoll",
-    "target_path": "vendor/xiaomi/miatoll"
+    "repository": "android_vendor_xiaomi_gram",
+    "target_path": "vendor/xiaomi/gram"
   },
   {
     "repository": "android_vendor_xiaomi_sm6250-common",

@@ -8,22 +8,16 @@
 include device/xiaomi/sm6250-common/BoardConfigCommon.mk
 
 # Inherit proprietary blobs
--include vendor/xiaomi/miatoll/BoardConfigVendor.mk
+-include vendor/xiaomi/gram/BoardConfigVendor.mk
 
-DEVICE_PATH := device/xiaomi/miatoll
+DEVICE_PATH := device/xiaomi/gram
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := miatoll
+TARGET_BOOTLOADER_BOARD_NAME := gram
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_miatoll
-TARGET_RECOVERY_DEVICE_MODULES := libinit_miatoll
-
-# HIDL
-ODM_MANIFEST_SKUS += \
-    joyeuse
-
-ODM_MANIFEST_JOYEUSE_FILES := $(DEVICE_PATH)/manifest_joyeuse.xml
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_gram
+TARGET_RECOVERY_DEVICE_MODULES := libinit_gram
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
+TARGET_OTA_ASSERT_DEVICE := gram
