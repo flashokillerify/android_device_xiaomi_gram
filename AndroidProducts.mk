@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 The Havoc-OS
+# Copyright (C) 2020 The Evolution-X Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_gram.mk
+    $(LOCAL_DIR)/evolution_gram.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_gram-user \
-    havoc_gram-userdebug \
-    havoc_gram-eng
+    evolution_gram-user \
+    evolution_gram-userdebug \
+    evolution_gram-eng
